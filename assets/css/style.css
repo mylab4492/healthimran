@@ -1751,3 +1751,116 @@ section {
   color: #fff;
   text-decoration: none;
 }
+/*--------------------------------------------------------------
+# Job portal (imranjobs.com) links
+--------------------------------------------------------------*/
+#hero .btn-apply-jobs {
+  margin-left: 10px;
+  background: #fff;
+  color: #1977cc;
+  border: 2px solid #1977cc;
+}
+#hero .btn-apply-jobs:hover {
+  background: #1977cc;
+  color: #fff;
+}
+.apply-jobs {
+  padding: 30px 0 60px;
+}
+.apply-jobs-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  padding: 36px 40px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #1977cc 0%, #0f5aa0 100%);
+  box-shadow: 0 14px 34px rgba(25, 119, 204, 0.28);
+  color: #fff;
+}
+.apply-jobs-text {
+  flex: 1 1 420px;
+}
+.apply-jobs-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.apply-jobs-box h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+.apply-jobs-box p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+.apply-jobs-box ul {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+}
+.apply-jobs-box li i {
+  color: #a8e6ff;
+  margin-right: 4px;
+}
+.apply-jobs-actions {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.apply-jobs-btn {
+  display: inline-block;
+  padding: 14px 36px;
+  border-radius: 50px;
+  background: #fff;
+  color: #1977cc;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.apply-jobs-btn:hover {
+  color: #0f5aa0;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.apply-jobs-login {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.apply-jobs-login:hover {
+  color: #a8e6ff;
+}
+@media (max-width: 768px) {
+  .apply-jobs-box {
+    padding: 26px 20px;
+    text-align: center;
+  }
+  .apply-jobs-box h3 {
+    font-size: 22px;
+  }
+  .apply-jobs-box ul {
+    justify-content: center;
+  }
+  .apply-jobs-actions {
+    width: 100%;
+  }
+  #hero .btn-apply-jobs {
+    margin-left: 0;
+  }
+}
